@@ -1,0 +1,25 @@
+{
+  "name": "timgradymusic.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doverphone/timgradymusic.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doverphone/timgradymusic.com/issues"
+  },
+  "homepage": "https://github.com/doverphone/timgradymusic.com#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "date-fns": "^1.29.0",
+    "mustache": "^3.0.0"
+  }
+}
