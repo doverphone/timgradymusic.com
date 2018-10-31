@@ -1,8 +1,15 @@
 @import './normalize.css';
 @import './skeleton.css';
 
+html, 
+body {
+    height: 100%;
+}
 body {
     font-size: 1.75em;
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 li {
@@ -11,7 +18,7 @@ li {
 }
 
 .content {
-    height: 100vh;
+    min-height: 100%;
     background-color: rgba(255, 255, 255, .90);
     text-align: center;
 }
@@ -21,17 +28,13 @@ li {
 }
 
 #calendar {
+    min-height: 100%;
     display: inline-block;
     text-align: left;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 900px) {
     .content {
         width: 50vw;   
-    }
-    body {
-        background-image: url('../images/bg.jpg');
-        background-attachment: fixed;
-        background-size: cover;
     }
 }
