@@ -1,5 +1,5 @@
-@import 'normalize.css';
-@import 'skeleton.css';
+@import './normalize.css';
+@import './skeleton.css';
 
 body {
     font-size: 1.75em;
