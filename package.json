@@ -20,7 +20,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "date-fns": "^1.29.0",
-    "mustache": "^3.0.0"
+    "mustache": "^3.0.0",
+    "normalize.css": "^8.0.0",
+    "skeleton.css": "^2.0.4"
   },
   "devDependencies": {
     "parcel": "^1.10.3"
